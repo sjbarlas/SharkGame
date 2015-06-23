@@ -15,8 +15,8 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from 'body' */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #00000; /* black button hover */
+  border: 1px solid #fff; /* white */
 }
 
 /*
@@ -26,13 +26,13 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #333; /* that grey colour */
   background-image: url("shark.jpg");
   
 }
 
 body {
-  color: #fff;
+  color: #fff; /* white */
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   background-image: url("shark.jpg");
