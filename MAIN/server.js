@@ -26,6 +26,7 @@ function onRequest(request, response) {
 		// Hence we want to send it back in a stream
 		// BECAUSE we want to avoid errors and have it perform well
 
+
 		fs.createReadStream("./home.html").pipe(response); // pipe it out or write/feed it out the stream to the response object which is pretty much the response we're sending back ie. we're going to send the info 'whatever.html' through the response object
 	}
 

@@ -1,1 +1,18 @@
 Whistler	Gwen	bird	\N		1997-12-09	\N
+
+xampp - server
+wamp
+phpmyadmin - interface - you can go to mysql interface, instead of code you can create tables with the GUI
+UI friendly - talks between the fe and be
+instead of node.js
+
+
+TAKE VALUES FROM FORM AND INSERT THEM INTO THE DB
+
+SHOWN:
+EXAMPLE OF INSERT AND THESE ARE HARDCODED VALUES
+
+--
+
+USER EMAIL AS PK
+PW AS SOMETHING ELSE
