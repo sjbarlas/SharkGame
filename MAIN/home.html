@@ -1,3 +1,8 @@
+<?php  
+session_start();//session starts here  
+  
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,59 +13,43 @@
 
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="home.css" rel="stylesheet">
+  <link href="signin.css" rel="stylesheet">
   <link href="footer.css" rel="stylesheet">
 </head>
 <body>
 
-  <div class="container sign-in-up">
-    <div class="row">
-      <div class="col-md-4 col-md-offset-4">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <!-- Nav tabs -->
-        <div class="text-center">
-          <h2 class="form-signin-heading">Please sign in</p>
-          </div>
-          <div class="tab-content">
-            <div class="tab-pane fade in active" id="user">
-              <br>
-              <fieldset>
-                <div class="form-group">
-                  <div class="right-inner-addon">
-                    <i class="fa fa-envelope"></i>
-                    <input class="form-control input-lg" placeholder="Email Address" type="text">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="right-inner-addon">
-                    <i class="fa fa-key"></i>
-                    <input class="form-control input-lg" placeholder="Password" type="password">
-                  </div>
-                </div>
-              </fieldset>
-              <hr>
-              <div class=" text-center">
-                <button class="btn btn-primary">LOGIN</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <footer class="footer"><a href="about.html">
-      <div class="container"><a href="about.html">
-        <br>
-        <p class="text-center">SHARK PROJECT</p>
-      </div></a>
-    </footer></a>
+  <br>
+  <br>
+  <br>
+  <!-- Nav tabs -->
+  <div class="text-center">
+   <div class="container">
+    <form class="form-signin">
+      <h2 class="form-signin-heading">Please sign in</h2>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      <!-- <div class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div> -->
+      <button class="btn btn-sm btn-info btn-block" type="submit">Sign in</button>
+    </form>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-  </html>
+  </div> <!-- /container -->
+</div> <!-- center -->
+
+<footer class="footer"><a href="about.html">
+  <div class="container"><a href="about.html">
+    <br>
+    <p class="text-center">SHARK PROJECT</p>
+  </div></a>
+</footer></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
