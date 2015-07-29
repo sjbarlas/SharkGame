@@ -1,6 +1,5 @@
 <?php 
-    require("config.php"); 
-    unset($_SESSION['user']);
-    header("Location: index.php"); 
-    die("Redirecting to: index.php");
+	session_start();
+	session_destroy();
+	header("location:main_login.php");
 ?>
