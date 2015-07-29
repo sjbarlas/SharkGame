@@ -1,0 +1,41 @@
+body {
+  min-height: 2000px;
+  background-color: #7A7A7A;
+}
+
+.navbar-toggle {
+    color: #2f96b4; /* mob menu colour */
+    font-size: 32px;
+    margin: 3px;
+    padding: 2px 5px;
+    line-height: 32px;
+}
+.navbar-toggle:hover {
+    background-color: #373737; /* mob menu hover */
+}
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-nav li a {
+    color: #CCC; /* text colour */
+    font-family: 'Lato', sans-serif;
+}
+.navbar-nav li a:hover {
+    background-color: #2f96b4; /* hovered menu colour */
+}
+
+.navbar-brand {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    background-color: #CCC; /* background of shark project */
+    color: #474747; /* text colour for shark project */
+    text-decoration: none;
+}
+
+.top {
+    background-color: #474747; /* menu bar colour */
+}
+
