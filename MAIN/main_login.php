@@ -17,8 +17,8 @@ if(isset($_SESSION['username'])){
   <title>Login</title>
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-  <link href="sharkcss/signin.css" rel="stylesheet" media="screen">
-  <link href="sharkcss/footer.css" rel="stylesheet" media="screen">
+  <link href="sharkcss/main_loginSignin.css" rel="stylesheet" media="screen">
+  <link href="sharkcss/main_loginFooter.css" rel="stylesheet" media="screen">
 </head>
 <body>
   <br>
