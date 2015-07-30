@@ -34,25 +34,18 @@ if(isset($_SESSION['username'])){
         </label>
       -->
       <button name="Submit" id="submit" class="btn btn-info btn-primary btn-block" type="submit"><strong>SIGN IN</strong></button>
-
       <div id="message"></div>
     </form>
-
   </div> <!-- container -->
-</div> <!-- centre text -->
+</div> <!-- center text -->
 <footer class="footer"><a href="about.html">
   <div class="container"><a href="about.html">
     <br>
     <p class="text-center">SHARK PROJECT</p>
   </div></a>
 </footer></a>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="//code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script type="text/javascript" src="js/bootstrap.js"></script>
-<!-- The AJAX login script -->
 <script src="js/login.js"></script>
-
 </body>
 </html>
