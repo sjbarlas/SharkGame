@@ -28,15 +28,15 @@ if(isset($_SESSION['username'])){
         <h2 class="form-signin-heading">Please sign in</h2>
         <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username" autofocus>
         <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
-        <!--
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-      -->
-      <button name="Submit" id="submit" class="btn btn-info btn-primary btn-block" type="submit"><strong>SIGN IN</strong></button>
-      <div id="message"></div>
-    </form>
-  </div> <!-- container -->
+      <!--
+      <label class="checkbox">
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    -->
+    <button name="Submit" id="submit" class="btn btn-info btn-primary btn-block" type="submit"><strong>SIGN IN</strong></button>
+    <div id="message"></div>
+  </form>
+</div> <!-- container -->
 </div> <!-- center text -->
 <footer class="footer"><a href="about.html">
   <div class="container"><a href="about.html">
