@@ -16,9 +16,9 @@ if(isset($_SESSION['username'])){
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Login</title>
   <!-- Bootstrap -->
-  <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-  <link href="sharkcss/main_loginSignin.css" rel="stylesheet" media="screen">
-  <link href="sharkcss/main_loginFooter.css" rel="stylesheet" media="screen">
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="sharkcss/main_loginSignin.css" rel="stylesheet">
+  <link href="sharkcss/main_loginFooter.css" rel="stylesheet">
 </head>
 <body>
   <br>
