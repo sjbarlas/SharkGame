@@ -26,7 +26,7 @@ if(isset($_SESSION['username'])){
         <h2 class="form-signin-heading">Please sign in</h2>
         <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username" autofocus>
         <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
-        <!-- The checkbox remember me is not implemented yet...
+        <!--
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> Remember me
         </label>
