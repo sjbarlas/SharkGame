@@ -23,7 +23,7 @@ if(!isset($_SESSION['username'])){
         <div class="alert alert-success">You have been <strong>successfully logged in</strong>.</div>
         <a href="logout.php" class="btn btn-info btn-sm">SIGN OUT</a>
       </div>
-    </div> <!-- /container -->
+    </div> <!-- container -->
   </div>
 </body>
 </html>
