@@ -17,7 +17,6 @@ if(isset($_SESSION['username'])){
   <link href="signin.css" rel="stylesheet" media="screen">
   <link href="footer.css" rel="stylesheet" media="screen">
 </head>
-
 <body>
   <br>
   <br>
