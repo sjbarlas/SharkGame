@@ -10,8 +10,9 @@ if(!isset($_SESSION['username'])){
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sign in</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
   <link href="home.css" rel="stylesheet" media="screen">

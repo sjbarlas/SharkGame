@@ -19,7 +19,7 @@ catch(Exception $e)
 $myusername = $_POST['myusername']; 
 $mypassword = $_POST['mypassword']; 
 
-	// To protect MySQL injection
+	// to protect MySQL injection
 $myusername = stripslashes($myusername);
 $mypassword = stripslashes($mypassword);
 
