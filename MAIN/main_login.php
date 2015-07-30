@@ -1,3 +1,5 @@
+<!-- HOME PAGE -->
+
 <?php
 session_start();
 

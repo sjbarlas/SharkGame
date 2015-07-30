@@ -1,3 +1,5 @@
+<!-- SERVER CONNECTION AND DATABASE -->
+
 <?php
 
 ob_start();
@@ -12,7 +14,7 @@ try
 }
 catch(Exception $e)
 {
-	die('Error : ' . $e->getMessage());
+	die('Error : ' . $e->getMessage());1101
 }	
 
 	// define $myusername and $mypassword 

@@ -1,3 +1,5 @@
+<!-- PAGE THE USER SEES WHEN LOGGED IN -->
+
 <?php
 session_start();
 
