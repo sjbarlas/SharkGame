@@ -35,10 +35,10 @@ if($count == 1){
 	echo "true";
 	$_SESSION['username'] = 'myusername';
 	$_SESSION['password'] = 'mypassword';
-	
+
 }
 else {
-		//return the error message
+		// return the error message
 	echo "<div class=\"alert alert-danger alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>Wrong Username or Password</div>";
 }
 
