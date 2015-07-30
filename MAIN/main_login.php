@@ -48,6 +48,6 @@ if(isset($_SESSION['username'])){
 </footer></a>
 <script src="//code.jquery.com/jquery.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-<script src="bootstrap/js/login.js"></script>
+<script src="bootstrap/js/login.js"></script> <!-- AJAX -->
 </body>
 </html>
