@@ -47,7 +47,7 @@ if(isset($_SESSION['username'])){
   </div></a>
 </footer></a>
 <script src="//code.jquery.com/jquery.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 <script src="bootstrap/js/login.js"></script>
 </body>
 </html>
