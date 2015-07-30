@@ -15,8 +15,8 @@ if(isset($_SESSION['username'])){
   <title>Login</title>
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-  <link href="signin.css" rel="stylesheet" media="screen">
-  <link href="footer.css" rel="stylesheet" media="screen">
+  <link href="sharkcss/signin.css" rel="stylesheet" media="screen">
+  <link href="sharkcss/footer.css" rel="stylesheet" media="screen">
 </head>
 <body>
   <br>
@@ -37,7 +37,7 @@ if(isset($_SESSION['username'])){
     <div id="message"></div>
   </form>
 </div> <!-- container -->
-</div> <!-- center text -->
+</div> <!-- text center -->
 <footer class="footer"><a href="about.html">
   <div class="container"><a href="about.html">
     <br>

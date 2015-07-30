@@ -15,7 +15,7 @@ if(!isset($_SESSION['username'])){
   <title>Sign in</title>
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-  <link href="home.css" rel="stylesheet" media="screen">
+  <link href="sharkcss/home.css" rel="stylesheet" media="screen">
 </head>
 <body>
   <div class="text-center">
@@ -25,6 +25,6 @@ if(!isset($_SESSION['username'])){
         <a href="logout.php" class="btn btn-info btn-sm">SIGN OUT</a>
       </div>
     </div> <!-- container -->
-  </div>
+  </div> <!-- text center -->
 </body>
 </html>
