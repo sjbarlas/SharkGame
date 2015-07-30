@@ -1,4 +1,4 @@
-<!-- PAGE THE USER SEES WHEN LOGGED IN -->
+<!-- IF THE USER IS SUCCESFUL IN LOGGING IN -->
 
 <?php
 session_start();
