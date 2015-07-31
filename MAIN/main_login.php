@@ -39,7 +39,7 @@ if(isset($_SESSION['username'])){
     <div id="message"></div>
   </form>
 </div> <!-- container -->
-</div> <!-- text center -->
+</div> <!-- text centre -->
 <footer class="footer"><a href="about.html">
   <div class="container"><a href="about.html">
     <br>

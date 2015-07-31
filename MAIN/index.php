@@ -27,6 +27,6 @@ if(!isset($_SESSION['username'])){
         <a href="logout.php" class="btn btn-info btn-sm">SIGN OUT</a>
       </div>
     </div> <!-- container -->
-  </div> <!-- text center -->
+  </div> <!-- text centre -->
 </body>
 </html>
