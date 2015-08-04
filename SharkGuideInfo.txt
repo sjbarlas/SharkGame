@@ -24,3 +24,9 @@ FEATURES
 MORE INFO GIVES STUFF NOT RELATED TO THE GAME
 
 http://elvery.net/demo/responsive-tables/
+
+---
+
+Need the images in the database and they should be able to be retrieved.
+Need x and y co ordinates
+Tags also
