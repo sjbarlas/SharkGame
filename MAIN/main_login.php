@@ -34,7 +34,7 @@ if(isset($_SESSION['username'])){
       <label class="checkbox">
         <input type="checkbox" value="remember-me"> Remember me
       </label>
-    -->
+      -->
     <button name="Submit" id="submit" class="btn btn-info btn-primary btn-block" type="submit"><strong>SIGN IN</strong></button>
     <div id="message"></div>
   </form>
