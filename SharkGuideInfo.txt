@@ -22,7 +22,8 @@ CAROUSEL
 SHARK HEADING
 FEATURES
 MORE INFO GIVES STUFF NOT RELATED TO THE GAME
-
+----------
+SHARK IMAGES STORED IN THE TB OF DISC
 http://elvery.net/demo/responsive-tables/
 
 ---
