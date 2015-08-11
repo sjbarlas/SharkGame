@@ -9,4 +9,3 @@
 	$db_name="login"; // database name 
 	$tbl_name="members"; // table name
 ?>
-jkl
