@@ -6,10 +6,29 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Main</title>
+  <title>Game | SHARK PROJECT</title>
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="sharkcss/game.css" rel="stylesheet">
+  <link href="sharkcss/custom.css" rel="stylesheet">
+
+  <!-- Jcrop -->
+  <script src="js/jquery.min.js"></script> <!-- jquery original -->
+  <script src="js/jquery.Jcrop.js"></script> <!-- original -->
+
+  <script type="text/javascript">
+  jQuery(function($){
+
+    // How easy is this??
+    $('#target').Jcrop();
+
+  });
+
+  </script>
+
+  <link rel="stylesheet" href="demo_files/main.css" type="text/css" /> <!-- bootstrap -->
+  <link rel="stylesheet" href="demo_files/demos.css" type="text/css" /> <!-- bootstrap -->
+  <link rel="stylesheet" href="css/jquery.Jcrop.css" type="text/css" /> <!-- original -->
 </head>
 <body>
   <header class="top" role="header">
@@ -31,6 +50,40 @@
       </nav>
     </div>
   </header>
+
+<!-- Jcrop -->
+  <div class="container">
+<div class="row">
+<div class="span12">
+<div class="jc-demo-box">
+
+<div class="page-header">
+<ul class="breadcrumb first">
+  <li><a href="../index.html">Jcrop</a> <span class="divider">/</span></li>
+  <li><a href="../index.html">Demos</a> <span class="divider">/</span></li>
+  <li class="active">Hello World</li>
+</ul> <!-- END BREADCRUMB FIRST -->
+<h1>Hello World</h1>
+</div> <!-- END PAGE-HEADER -->
+
+  <img src="demo_files/3.jpg" id="target" alt="[Jcrop Example]"/>
+
+  <div class="description">
+  <p>
+    <b>This example demonstrates the default behavior of Jcrop.</b><br />
+    Since no event handlers have been attached it only performs
+    the cropping behavior.
+  </p>
+  </div> <!-- END DESCRIPTION -->
+
+
+<div class="clearfix"></div>
+
+</div> <!-- /END JC-DEMO-BOX -->
+</div> <!-- /END SPAN12 -->
+</div> <!-- /END ROW -->
+</div>  <!-- /Jcrop --> <!-- /END CONTAINER -->
+
 <!--
 <div class="container-fluid">
 <div class="row-fluid">
