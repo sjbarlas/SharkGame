@@ -14,7 +14,7 @@ $(document).ready(function(){
     else {
       $.ajax({
         type: "POST",
-        url: "checklogin.php",
+        url: "check_signin.php",
         data: "myusername="+username+"&mypassword="+password,
         success: function(html){    
           if(html=='true') { // if the return value = 'true' then redirect to 'index.php'

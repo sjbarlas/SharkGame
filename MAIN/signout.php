@@ -1,6 +1,6 @@
 <?php 
 
-// LOGGING OUT
+// SIGNING OUT
 // ------
 
 session_start();
