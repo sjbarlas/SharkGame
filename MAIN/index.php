@@ -35,16 +35,16 @@ if(!isset($_SESSION['username'])){
         <li><a href="leaderboard.html">Leaderboard</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="main_signin.php">Sign In</a></li>
+        <li><a href="signout.php" class="btn btn-info btn-sm">SIGN OUT</a></li>
       </ul>
     </nav>
   </div>
 </header>
-
+<!-- pop up message -->
 <div class="text-center">
   <div class="container">
     <div class="form-signin">
       <div class="alert alert-success">You have been <strong>successfully signed in</strong>.</div>
-      <a href="signout.php" class="btn btn-info btn-sm">SIGN OUT</a>
     </div>
   </div> <!-- container -->
 </div> <!-- text centre -->
