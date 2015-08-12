@@ -17,8 +17,8 @@ if(isset($_SESSION['username'])){
   <title>Sign In | SHARK PROJECT</title>
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-  <link href="sharkcss/main_loginSignin.css" rel="stylesheet">
-  <link href="sharkcss/main_loginFooter.css" rel="stylesheet">
+  <link href="sharkcss/main_signinBox.css" rel="stylesheet">
+  <link href="sharkcss/main_signinFooter.css" rel="stylesheet">
 </head>
 <body>
   <br>
@@ -26,7 +26,7 @@ if(isset($_SESSION['username'])){
   <br>
   <div class="text-center">
     <div class="container">
-      <form class="form-signin" name="form1" method="post" action="checklogin.php">
+      <form class="form-signin" name="form1" method="post" action="check_signin.php">
         <h2 class="form-signin-heading">Please sign in</h2>
         <input name="myusername" id="myusername" type="text" class="form-control" placeholder="Username" autofocus>
         <input name="mypassword" id="mypassword" type="password" class="form-control" placeholder="Password">
@@ -48,6 +48,6 @@ if(isset($_SESSION['username'])){
 </footer></a>
 <script src="//code.jquery.com/jquery.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-<script src="bootstrap/js/login.js"></script> <!-- AJAX -->
+<script src="sharkjs/signin.js"></script> <!-- AJAX -->
 </body>
 </html>

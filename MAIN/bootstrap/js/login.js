@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  // when the user clicks on the login button    
+  // when the user clicks on the signin button    
   $("#submit").click(function(){
 
     // get each input value in a veriable
@@ -14,7 +14,7 @@ $(document).ready(function(){
     else {
       $.ajax({
         type: "POST",
-        url: "checklogin.php",
+        url: "check_signin.php",
         data: "myusername="+username+"&mypassword="+password,
         success: function(html){    
           if(html=='true') { // if the return value = 'true' then redirect to 'index.php'

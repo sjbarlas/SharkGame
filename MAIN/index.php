@@ -1,10 +1,10 @@
-<!-- IF THE USER IS SUCCESFUL IN LOGGING IN -->
+<!-- IF THE USER IS SUCCESFUL IN SIGNING IN -->
 
 <?php
 session_start();
 
 if(!isset($_SESSION['username'])){
-  header("location:main_login.php");
+  header("location:main_signin.php");
 }
 ?>
 
@@ -23,8 +23,8 @@ if(!isset($_SESSION['username'])){
   <div class="text-center">
     <div class="container">
       <div class="form-signin">
-        <div class="alert alert-success">You have been <strong>successfully logged in</strong>.</div>
-        <a href="logout.php" class="btn btn-info btn-sm">SIGN OUT</a>
+        <div class="alert alert-success">You have been <strong>successfully signed in</strong>.</div>
+        <a href="signout.php" class="btn btn-info btn-sm">SIGN OUT</a>
       </div>
     </div> <!-- container -->
   </div> <!-- text centre -->

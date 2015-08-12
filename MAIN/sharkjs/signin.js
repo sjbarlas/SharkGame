@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  // when the user clicks on the login button    
+  // when the user clicks on the signin button    
   $("#submit").click(function(){
 
     // get each input value in a veriable
