@@ -1,5 +1,5 @@
 /* Jcrop Demo Site CSS - 2012 Tapmodo Interactive LLC - MIT License
-   Not required to run Jcrop - contains twitter bootstrap code */
+Not required to run Jcrop - contains twitter bootstrap code */
 /*!
  * Bootstrap v2.2.1
  *
@@ -9,16 +9,16 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section {
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ nav,
+ section {
   display: block;
 }
 audio,
