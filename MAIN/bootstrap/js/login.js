@@ -19,12 +19,12 @@ $(document).ready(function(){
         success: function(html){    
           if(html=='true') { // if the return value = 'true' then redirect to 'index.php'
             window.location="index.php";
-          }
+        }
           else { // if the return value != 'true' then add the error message to the div.#message
             $("#message").html(html);
-          }
-        },
-        beforeSend:function()
+        }
+      },
+      beforeSend:function()
         { // loading gif 
           $("#message").html("<p class='text-center'><img src='images/ajax-loader.gif'></p>")
         }
