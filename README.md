@@ -9,7 +9,9 @@
 4. [phpMyAdmin](https://www.phpmyadmin.net/) - Databse for images and users
 
 5. [Xampp](https://www.apachefriends.org/index.html) - Apache server and MySQL, connecting backend and frontend
-=====
+
+
+===
 # Site
 
 *On PC*
