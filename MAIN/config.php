@@ -6,6 +6,6 @@
 	$host="localhost"; // host name 
 	$username="root"; // mysql username 
 	$password=""; // mysql password 
-	$db_name="signin"; // database name 
+	$db_name="sharks"; // database name 
 	$tbl_name="users"; // table name
 	?>
