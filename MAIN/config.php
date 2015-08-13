@@ -7,5 +7,5 @@
 	$username="root"; // mysql username 
 	$password=""; // mysql password 
 	$db_name="sharks"; // database name 
-	$tbl_name="users"; // table name
+	$tbl_name="user"; // table name
 	?>
