@@ -1,17 +1,3 @@
-# Resources Used:
-
-1. [Bootstrap v3.3.5](http://getbootstrap.com/) - HTML, CSS, JavaScript, general page layout
-
-2. [Jcrop v0.9.12](http://deepliquid.com/content/Jcrop.html) - Javascript cropping
-
-3. [PHP-Login](https://github.com/fethica/PHP-Login) - PHP signin
-
-4. [phpMyAdmin](https://www.phpmyadmin.net/) - Databse for images and users
-
-5. [Xampp](https://www.apachefriends.org/index.html) - Apache server and MySQL, connecting backend and frontend
-
-
-===
 # Site
 
 *On PC*
