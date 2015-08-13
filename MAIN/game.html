@@ -95,16 +95,21 @@
           <img src="images/1.jpg" id="target" alt="[Shark]" style='width:100%;' border="0" alt="Null" />
 
           <!-- This is the form that our event handler fills -->
-          <div class="jc_coords">
-            <form onsubmit="return false;">
-              <label>X1 <input type="text" size="4" id="x" name="x" /></label>
-              <label>Y1 <input type="text" size="4" id="y" name="y" /></label>
+          <form id="coords" class="coords" onsubmit="return false;" action="http://example.com/post.php">
+
+            <div class="inline-labels">
+              <!-- top left -->
+              <label>X1 <input type="text" size="4" id="x1" name="x1" /></label>
+              <label>Y1 <input type="text" size="4" id="y1" name="y1" /></label> 
+              <!-- bottom right -->
               <label>X2 <input type="text" size="4" id="x2" name="x2" /></label>
               <label>Y2 <input type="text" size="4" id="y2" name="y2" /></label>
+              <!--
               <label>W <input type="text" size="4" id="w" name="w" /></label>
-              <label>H <input type="text" size="4" id="h" name="h" /></label>
-            </form>
+              <label>H <input type="text" size="4" id="h" name="h" /></label> 
+            -->
           </div>
+        </form>
 
   <!--
   <div class="description">
