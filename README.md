@@ -12,7 +12,7 @@
 
 
 ===
->! # Site
+# Site
 
 *On PC*
 ![alt text](http://blogs.computing.dcu.ie/wordpress/ifad/wp-content/uploads/sites/266/2015/07/formLoginImage.gif "site")
@@ -22,7 +22,7 @@
 ![alt text](http://blogs.computing.dcu.ie/wordpress/ifad/wp-content/uploads/sites/266/2015/07/displayOnPhone.gif "phone")
 
 *Cropping*
->! ![alt text](http://i.imgur.com/y9OUVnS.gif "crop")
+![alt text](http://i.imgur.com/y9OUVnS.gif "crop")
 
 # Prototype
 
