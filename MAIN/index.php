@@ -34,7 +34,7 @@ if(!isset($_SESSION['username'])){
         <li><a href="sguide.html">Shark Guide</a></li>
         <li><a href="leaderboard.html">Leaderboard</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="main_signin.php">Sign In</a></li>
+        <a href="main_signin.php">Sign In</a></li>
         <li><a href="signout.php" class="btn btn-info btn-sm">SIGN OUT</a></li>
       </ul>
     </nav>
