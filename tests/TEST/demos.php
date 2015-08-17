@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>trying</title>
+<title>mar gai</title>
 <link href="http://edge1y.tapmodo.com/deepliq/global.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="http://jcrop-cdn.tapmodo.com/v0.9.12/css/jquery.Jcrop.min.css" type="text/css" />
 <link href="http://edge1u.tapmodo.com/deepliq/jcrop_demos.css" rel="stylesheet" type="text/css" />
