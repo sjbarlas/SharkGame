@@ -10,11 +10,46 @@
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
   <link href="sharkcss/game.css" rel="stylesheet">
+  <script src="jcrop/jcrop-js/Jcrop.js"></script>
+  <script type="text/javascript">
+  jQuery(function($){
+    var d = document, ge = 'getElementById';
 
+    $('#interface').on('cropmove cropend',function(e,s,c){
+      d[ge]('crop-x').value = c.x;
+      d[ge]('crop-y').value = c.y;
+      d[ge]('crop-w').value = c.w;
+      d[ge]('crop-h').value = c.h;
+    });
+
+        // Most basic attachment example
+        $('#target').Jcrop({
+          setSelect: [ 175, 100, 400, 300 ]
+        });
+        
+        $('#text-inputs').on('change','input',function(e){
+          $('#target').Jcrop('api').animateTo([
+            parseInt(d[ge]('crop-x').value),
+            parseInt(d[ge]('crop-y').value),
+            parseInt(d[ge]('crop-w').value),
+            parseInt(d[ge]('crop-h').value)
+            ]);
+        });
+        
+      });
+
+  </script>
 
   <link rel="stylesheet" href="jcrop/gen-css/main.css" type="text/css" /> <!-- bootstrap --> <!--  my nav bar but imgs too big -->
   <link rel="stylesheet" href="jcrop/gen-css/demos.css" type="text/css" /> <!-- bootstrap --> <!-- border for the image and padding -->
-  <link rel="stylesheet" href="jcrop/jcrop-css/jquery.Jcrop.css" type="text/css" /> <!-- original --> <!-- interactive cropping -->
+  <link rel="stylesheet" href="jcrop/jcrop-css/Jcrop.css" type="text/css" /> <!-- original --> <!-- interactive cropping -->
+
+  <style>
+  #text-inputs { margin: 10px 8px 0; }
+  .input-group { margin-right: 1.5em; }
+  .nav-box { width: 748px; padding: 0 !important; margin: 4px 0; background-color: #f8f8f7; }
+
+  </style>
 </head>
 <body>
   <header class="top" role="header">
@@ -37,10 +72,30 @@
     </div>
   </header>
 
-  
+  <div class="container">
+      <div class="row">
+        <div class="span12">
+          <div class="jc-demo-box">
+            
+            <div id="interface" class="page-interface"><img src="http://jcrop-cdn.tapmodo.com/assets/images/sierra2-750.jpg" id="target"></div>
+            <div class="nav-box">
+              <form onsubmit="return false;" id="text-inputs"><span class="input-group"><b>X</b>
+                  <input type="text" name="cx" id="crop-x" class="span1"></span><span class="input-group"><b>Y</b>
+                  <input type="text" name="cy" id="crop-y" class="span1"></span><span class="input-group"><b>W</b>
+                  <input type="text" name="cw" id="crop-w" class="span1"></span><span class="input-group"><b>H</b>
+                  <input type="text" name="ch" id="crop-h" class="span1"></span>
+                  <input type="text" name=""
+              </form>
+            </div> <!-- /nav box -->
+            
+            <div class="clearfix"></div>
+          </div> <!-- /jc demo box -->
+        </div> <!-- /span12 -->
+      </div> <!-- /row -->
+    </div> <!-- /container -->
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
