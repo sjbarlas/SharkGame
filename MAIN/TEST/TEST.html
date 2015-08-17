@@ -25,18 +25,70 @@
 
   <!-- Jcrop scripts -->
 <body>
+<div id="pholder">
+  <div id="pbox">
+
+      <div class="headbar">
+<div id="headlinks">
+  <a href="/blog/">Blog</a> &bull;
+  <a href="/content/Jcrop.html" style="font-weight:bold;">Jcrop</a> &bull;
+  <a href="/contact/">Contact</a>
+</div> <!--/headlinks -->
+<a href="/"><img src="/css/dl/dl_title.png" /></a>
+</div> <!-- /headbar -->
+
+    <div id="sidemenu">
+      <div class="menu"><h2>Jcrop Demos</h2><ul><li><b>Hello World</b></li>
+<li><a href="/projects/Jcrop/demos.php?demo=handler">Event Handler</a></li>
+<li><a href="/projects/Jcrop/demos.php?demo=thumbnail">Thumbnail</a></li>
+<li><a href="/projects/Jcrop/demos.php?demo=advanced">Advanced</a></li>
+<li><a href="/projects/Jcrop/demos.php?demo=live_crop">Live Demo</a></li></ul></div> <!--/menu --> 
+<div class="menu"><h2>Jcrop Links</h2><ul><li><a href="/content/Jcrop.html">Jcrop Home</a></li>
+<li><a href="/content/Jcrop_Download.html">Download</a></li>
+<li><a href="/content/Jcrop_Manual.html">Manual</a></li>
+<li><a href="/content/Jcrop_API.html">API Docs</a></li></ul></div>   <!-- /menu --> </div> <!-- /sidemenu -->
+
+    <div id="pbody">
+
       <h1><b>Jcrop</b> &raquo; Basic Demo</h1>
       <script language="Javascript">
 
   $(function(){ $('#jcrop_target').Jcrop(); });
 
 </script>
-<img src="pool.gif" id="jcrop_target" alt="[Shark]" style='width:100%;' border="0" alt="Null" />
-<!--<img src="http://jcrop-cdn.tapmodo.com/v0.9.10/demos/demo_files/pool.jpg" id="jcrop_target" /> -->
+
+<img src="http://jcrop-cdn.tapmodo.com/v0.9.10/demos/demo_files/pool.jpg" id="jcrop_target" />
 
 <div class="spacer">
   <big><b>Hello World!</b></big>
-</div>
+</div> <!-- /spacer -->
+
+<p> 
+  This is the most basic example of Jcrop implementation.
+  Since no event handlers are attached, it's not very exciting,
+  but displays the out of box functionality. Attach it to
+  any image on your page with the simple code below, and
+  start cropping!
+</p>
+
+<pre class="democode">
+$(function(){ $('#jcrop_target').Jcrop(); });
+</pre>
+
+      <div class="menu"><h2>Jcrop Demos</h2><ul><li><b>Hello World</b></li>
+<li><a href="/projects/Jcrop/demos.php?demo=handler">Event Handler</a></li>
+<li><a href="/projects/Jcrop/demos.php?demo=thumbnail">Thumbnail</a></li>
+<li><a href="/projects/Jcrop/demos.php?demo=advanced">Advanced</a></li>
+<li><a href="/projects/Jcrop/demos.php?demo=live_crop">Live Demo</a></li></ul></div> <!-- /menu -->
+      <p>
+        These demos have been adapted for display on this website. Simplified versions of the same demos (with simplified source code) are included in the <a href="/content/Jcrop_Download.html">archive download</a>.
+      </p>
+
+
+    </div> <!-- /pbody -->
+
+  </div> <!-- /pbox -->
+</div> <!-- /pholder -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
