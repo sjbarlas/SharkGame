@@ -7,14 +7,14 @@
   <script type="text/javascript">
   jQuery(function($){
     var d = document, ge = 'getElementById';
-    
+
     $('#interface').on('cropmove cropend',function(e,s,c){
       d[ge]('crop-x').value = c.x;
       d[ge]('crop-y').value = c.y;
       d[ge]('crop-w').value = c.w;
       d[ge]('crop-h').value = c.h;
     });
-    
+
         // Most basic attachment example
         $('#target').Jcrop({
           setSelect: [ 175, 100, 400, 300 ]
@@ -30,7 +30,7 @@
         });
         
       });
-  
+
   </script>
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="sharkcss/game.css" rel="stylesheet">
@@ -41,7 +41,7 @@
   #text-inputs { margin: 10px 8px 0; }
   .input-group { margin-right: 1.5em; }
   .nav-box { width: 748px; padding: 0 !important; margin: 4px 0; background-color: #f8f8f7; }
-  
+
   </style>
 </head>
 <body>
@@ -79,7 +79,7 @@
               <li><a href="circle.html">Circles</a></li>
             </ul>
           </div>
-          <div id="interface" class="page-interface"><img src="http://jcrop-cdn.tapmodo.com/assets/images/sierra2-750.jpg" id="target"></div>
+          <div id="interface" class="page-interface"><img src="images/1.jpg" id="target"></div>
           <div class="nav-box">
             <form onsubmit="return false;" id="text-inputs"><span class="input-group"><b>X</b>
               <input type="text" name="cx" id="crop-x" class="span1"></span><span class="input-group"><b>Y</b>
