@@ -10,6 +10,9 @@
 *Cropping*
 ![alt text](http://i.imgur.com/y9OUVnS.gif "crop")
 
+*Cropping with Coordinates*
+![alt text](https://raw.githubusercontent.com/sjbarlas/SharkGame/master/PagGifs/coords.gif "coordinates")
+
 # Prototype
 
 *Home Page*
