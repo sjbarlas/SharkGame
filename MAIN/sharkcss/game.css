@@ -39,3 +39,10 @@ body {
     background-color: #474747; /* menu bar colour */
 }
 
+.image {
+    padding-top: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+    max-width: 100%;
+} 
