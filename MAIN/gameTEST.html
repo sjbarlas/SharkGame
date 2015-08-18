@@ -7,18 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Game | SHARK PROJECT</title>
-  <script src="jcrop/jcrop-js/Jcrop.js"></script>
-  <script type="text/javascript">
-  jQuery(function($){
-    var d = document, ge = 'getElementById';
-
-    $('#interface').on('cropmove cropend',function(e,s,c){
-      d[ge]('crop-x').value = c.x;
-      d[ge]('crop-y').value = c.y;
-      d[ge]('crop-w').value = c.w;
-      d[ge]('crop-h').value = c.h;
-    });
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jcrop/2/js/Jcrop.js"></script>
+    <script type="text/javascript">
+      jQuery(function($){
+        var d = document, ge = 'getElementById';
+        
+        $('#interface').on('cropmove cropend',function(e,s,c){
+          d[ge]('crop-x').value = c.x;
+          d[ge]('crop-y').value = c.y;
+          d[ge]('crop-w').value = c.w;
+          d[ge]('crop-h').value = c.h;
+        });
+        
         // Most basic attachment example
         $('#target').Jcrop({
           setSelect: [ 175, 100, 400, 300 ]
@@ -30,24 +31,23 @@
             parseInt(d[ge]('crop-y').value),
             parseInt(d[ge]('crop-w').value),
             parseInt(d[ge]('crop-h').value)
-            ]);
+          ]);
         });
         
       });
-
-  </script>
+      
+    </script>
     <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
   <link href="sharkcss/game.css" rel="stylesheet">
-  <link rel="stylesheet" href="jcrop/gen-css/main.css" type="text/css" /> <!-- bootstrap --> <!--  my nav bar but imgs too big -->
-  <link rel="stylesheet" href="jcrop/gen-css/demos.css" type="text/css" /> <!-- bootstrap --> <!-- border for the image and padding -->
-  <link rel="stylesheet" href="jcrop/jcrop-css/Jcrop.css" type="text/css" /> <!-- original --> <!-- interactive cropping -->
-
+  <link rel="stylesheet" href="jcrop/2/demo_files/main.css">
+  <link rel="stylesheet" href="jcrop/2/demo_files/demos.css">
+  <link rel="stylesheet" href="jcrop/2/css/Jcrop.css">
   <style>
-  #text-inputs { margin: 10px 8px 0; } /* under the image */
-  .input-group { margin-right: 1.5em; }
-  .nav-box { width: 748px; padding: 0 !important; margin: 4px 0; background-color: #f8f8f7; } /* the box that holds the coords */
-
+      #text-inputs { margin: 10px 8px 0; }
+      .input-group { margin-right: 1.5em; }
+      .nav-box { width: 748px; padding: 0 !important; margin: 4px 0; background-color: #f8f8f7; }
+      
   </style>
 </head>
 <body>
