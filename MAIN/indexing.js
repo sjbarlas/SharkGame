@@ -2,6 +2,8 @@ $(document).ready(function(){
 	$('#image').click(function(e){
 		var left = e.clientX;
 		var top = e.clientY;
-		alert('top:' + top + ' left:' + left);
+		//alert('top:' + top + ' left:' + left);
+		$('$name').css'top', top).css('left', left).focus();
+		$('#name').show();
 	});
 });
