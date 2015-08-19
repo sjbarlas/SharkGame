@@ -7,9 +7,9 @@
 
 <img src='images/1.jpg' id='image' />
 
-<div>
+<!--<div>-->
 	<input type='text' id='name' />
-</div>
+<!--</div>-->
 
 
 <script src='jquery.js'></script>
