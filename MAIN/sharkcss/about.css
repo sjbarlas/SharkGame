@@ -22,7 +22,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .navbar-nav li a:hover {
-    background-color: #2f96b4; /* hovered menu colour */
+    background-color: #2F96B4; /* hovered menu colour */
 }
 
 .navbar-brand {
