@@ -14,6 +14,5 @@
 
 <script src='jquery.js'></script>
 <script src='indexing.js'></script>
-</script>
 </body>
 </html>
