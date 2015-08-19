@@ -9,11 +9,37 @@
   <title>Game | SHARK PROJECT</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- must be on top for Jcrop to work -->
   <script src="jcrop/2/js/Jcrop.js"></script>
+  <script type="text/javascript">
+  jQuery(function($){
+    var d = document, ge = 'getElementById';
+
+    $('#interface').on('cropmove cropend',function(e,s,c){
+      d[ge]('crop-x').value = c.x;
+      d[ge]('crop-y').value = c.y;
+      d[ge]('crop-w').value = c.w;
+      d[ge]('crop-h').value = c.h;
+    });
+
+        // Most basic attachment example
+        $('#target').Jcrop({
+          setSelect: [ 175, 100, 400, 300 ]
+        });
+        
+        $('#text-inputs').on('change','input',function(e){
+          $('#target').Jcrop('api').animateTo([
+            parseInt(d[ge]('crop-x').value),
+            parseInt(d[ge]('crop-y').value),
+            parseInt(d[ge]('crop-w').value),
+            parseInt(d[ge]('crop-h').value)
+            ]);
+        });
+        
+      });
+
+  </script>
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="sharkcss/game.css" rel="stylesheet">
-  <link rel="stylesheet" href="jcrop/2/demo_files/main.css">
-  <link rel="stylesheet" href="jcrop/2/demo_files/demos.css">
   <link rel="stylesheet" href="jcrop/2/css/Jcrop.css">
   <style>
   #text-inputs { margin: 10px 8px 0; }
@@ -45,30 +71,30 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 col-md-12 col-xs-6">
-        <div class="jc-demo-box">
+      <div class="col-lg-12 col-md-12 col-xs-12">
+        <!--<div class="jc-demo-box"> -->
 
           <!-- <div id="interface" class="page-interface"> -->
 
 
-            <img src="images/1.jpg" id="target" alt="[Shark]" class="img-responsive image" /><!--/div> --><!-- needed for the image in browser -->
-            
+          <img src="images/1.jpg" id="target" alt="[Shark]" class="img-responsive image" /><!--/div> --><!-- needed for the image in browser -->
 
-            <div class="nav-box">
-              <form onsubmit="return false;" id="text-inputs"><span class="input-group"><b>X</b>
-                <input type="text" name="cx" id="crop-x" class="span1"></span><span class="input-group"><b>Y</b>
-                <input type="text" name="cy" id="crop-y" class="span1"></span><span class="input-group"><b>W</b>
-                <input type="text" name="cw" id="crop-w" class="span1"></span><span class="input-group"><b>H</b>
-                <input type="text" name="ch" id="crop-h" class="span1"></span>
-              </form>
-            </div> <!-- /nav box -->
-            
-            <div class="clearfix"></div>
-          </div> <!-- /jc demo box -->
-        </div> <!-- /span12 -->
-      </div> <!-- /row -->
-    </div> <!-- /container -->
 
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-  </html>
+          <div class="nav-box">
+            <form onsubmit="return false;" id="text-inputs"><span class="input-group"><b>X</b>
+              <input type="text" name="cx" id="crop-x" class="span1"></span><span class="input-group"><b>Y</b>
+              <input type="text" name="cy" id="crop-y" class="span1"></span><span class="input-group"><b>W</b>
+              <input type="text" name="cw" id="crop-w" class="span1"></span><span class="input-group"><b>H</b>
+              <input type="text" name="ch" id="crop-h" class="span1"></span>
+            </form>
+          </div> <!-- /nav box -->
+
+          <div class="clearfix"></div>
+        <!--</div> --> <!-- /jc demo box -->
+      </div> <!-- /span12 -->
+    </div> <!-- /row -->
+  </div> <!-- /container -->
+
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
