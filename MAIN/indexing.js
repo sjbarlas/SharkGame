@@ -3,7 +3,7 @@ $(document).ready(function(){
 		var left = e.clientX;
 		var top = e.clientY;
 		//alert('top:' + top + ' left:' + left);
-		$('$name').css'top', top).css('left', left).focus();
+		$('$name').css('top', top).css('left', left).focus();
 		$('#name').show();
 	});
-});
+}); 
