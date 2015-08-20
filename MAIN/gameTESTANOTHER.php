@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Game | SHARK PROJECT</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- must be on top for Jcrop to work -->
+  <script src="indexing.js"></script>
   <script src="jcrop/2/js/Jcrop.js"></script>
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -72,6 +73,5 @@
   </div> <!-- /container -->
 
   <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="indexing.js"></script>
 </body>
 </html>
