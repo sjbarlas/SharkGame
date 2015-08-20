@@ -9,7 +9,7 @@
 
 	//include 'connect.php';
 
-	/*$query = mysql_query("SELECT 'name', 'top', 'left' FROM 'tempTag'");
+	/*$query = mysql_query("SELECT 'name', 'top', 'left' FROM 'temptag'");
 	while($run = mysql_fetch_array($query))
 	{
 		$name = $run['name'];
