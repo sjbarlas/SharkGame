@@ -2,6 +2,6 @@
 
 	mysql_connect('localhost', 'root', '');
 
-	mysql_select_db('root');
+	mysql_select_db('sharks');
 
 	?>

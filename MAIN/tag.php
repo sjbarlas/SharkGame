@@ -8,5 +8,5 @@
 	$left = $_POST['left'];
 
 	// Store them in the db
-	mysql_query("INSERT INTO tag VALUES('id', '$name', '$top', '$left')");
+	mysql_query("INSERT INTO tempTag VALUES('id', '$name', '$top', '$left')");
 ?>
