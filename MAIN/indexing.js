@@ -8,4 +8,10 @@ $(document).ready(function(){
 		$('#name').show().focus();
 	});
 
+	$('#name').keyup(function(e){
+		// if user presses enter then we do this
+
+
+	});
+
 });
