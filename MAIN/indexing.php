@@ -16,6 +16,8 @@
 		$top = $run['top'];
 		$left = $run['left'];
 	}
+
+}
 ?>
 
 <div id='tagged' style='top: <?php echo $top; ?>; left: <?php echo $left; ?>'><?php echo $name; ?></div>
