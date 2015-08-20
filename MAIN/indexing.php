@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<?php
+<!--<?php
 
 	//include 'connect.php';
 
@@ -18,14 +18,11 @@
 	}
 
 } */
-?>
+?> -->
 
 <!--<div id='tagged' style='top: <?php //echo $top; ?>; left: <?php //echo $left; ?>'><?php //echo $name; ?></div> -->
 
-<?php
-
-
-?>
+<!--<?php?>-->
 
 <img src='images/1.jpg' id='image' />
 
