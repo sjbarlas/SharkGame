@@ -18,7 +18,7 @@
 	}
 ?>
 
-<div id='tagged' style='top: <?php echo $top; ?>; left: <?php echo $left; ?>' <?php echo $name; ?></div>
+<div id='tagged' style='top: <?php echo $top; ?>; left: <?php echo $left; ?>'><?php echo $name; ?></div>
 
 <?php
 
