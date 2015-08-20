@@ -17,9 +17,8 @@ $(document).ready(function(){
 			var top = $(this).position().top;
 			var left = $(this).position().left;
 
-			$.post('tag.php', (name:name, top:top, left:left).function(){
-
-
+			$.post('tag.php', (name:name, top:top, left:left), function(){
+				alert('Done');
 			});
 		}
 	});
