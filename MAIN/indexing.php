@@ -8,7 +8,7 @@
 <img src='images/1.jpg' id='image' />
 
 <div>
-	<input type='text' id='name' style='display: none' />
+	<input type='text' id='name' style='display:none; position:absolute ' />
 </div>
 
 <script src='jquery.js'></script>
