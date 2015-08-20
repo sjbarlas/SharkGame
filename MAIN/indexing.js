@@ -5,6 +5,7 @@ $(document).ready(function(){
 		var top = e.clientY;
 		//alert('top:' + top + ' left:' + left);
 		$('#name').css('top', top).css('left', left);
+		$('#name').show().focus();
 	});
 
 });
