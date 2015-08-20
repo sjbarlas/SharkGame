@@ -9,7 +9,7 @@
 
 	include 'connect.php';
 
-	$query = mysql_query("SELECT name, top, left FROM tempTag");
+	$query = mysql_query("SELECT 'name', 'top', 'left' FROM 'tempTag'");
 	while($run = mysql_fetch_array($query))
 	{
 		$name = $run['name'];
@@ -18,7 +18,7 @@
 	}
 ?>
 
-<div id='tagged' style='top: <?php echo $top; ?>; left: <?php echo $left; ?> <?php echo $name; ?></div>
+<div id='tagged' style='top: <?php echo $top; ?>; left: <?php echo $left; ?>' <?php echo $name; ?></div>
 
 <?php
 
