@@ -5,19 +5,18 @@ body {
 	font-size:12px;
 }
 
-
 img {
 	width:540px;
 	height:auto;
-	
 }
 
 @name {
-	background:#FFF;
-	border:2px solid #CCC;
+	display:none;
+	background:#fff;
+	border:2px solid #ccc;
 	padding:5px;
 	font-family:tahoma;
 	font-size:12px;
-	display:none;
-	position:absolute;
+	
 }
+	

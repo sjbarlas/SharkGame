@@ -7,10 +7,9 @@
 
 <img src='images/1.jpg' id='image' />
 
-<!--<div>-->
-	<input type='text' id='name' />
-<!--</div>-->
-
+<div>
+	<input type='text' id='name' style='display: none' />
+</div>
 
 <script src='jquery.js'></script>
 <script src='indexing.js'></script>
