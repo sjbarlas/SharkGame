@@ -52,7 +52,7 @@
           <!-- <div id="interface" class="page-interface"> -->
 
 
-          <img src="images/1.jpg" id="target" alt="[Shark]" class="img-responsive image" /><!--/div> --><!-- needed for the image in browser -->
+          <img src="images/1.jpg" id="target" alt="[Shark]" class="img-responsive img" /><!--/div> --><!-- needed for the image in browser -->
           <input type="text" id="name" style="display:none; position:absolute" />
 
 

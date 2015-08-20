@@ -19,10 +19,10 @@ img {
 	display:none;
 }
 
-@tagged {
+/*@tagged {
 	position:absolute;
 	opacity:0;
 	padding:5px;
 	background:#fff;
 	color:#333;
-}
+}*/
