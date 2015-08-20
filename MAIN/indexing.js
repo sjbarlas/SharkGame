@@ -10,8 +10,18 @@ $(document).ready(function(){
 
 	$('#name').keyup(function(e){
 		// if user presses enter then we do this
+		if(e.keyCode == 13) // 13 = enter
+		{
+			//alert('You\'ve Hit Enter');
+			var name = $(this).val();
+			var top = $(this).position().top;
+			var left = $(this).position().left;
+
+			$.post('tag.php', (name:name, top:top, left:left).function(){
 
 
+			});
+		}
 	});
 
 });
