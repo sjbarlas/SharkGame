@@ -8,7 +8,7 @@ $(document).ready(function(){
 		$('#name').show().focus();
 	});
 
-	$('#name').keyup(function(e){
+	$('#name').keyup(function(e){ // e stores the button we've pressed
 		// if user presses enter then we do this
 		if(e.keyCode == 13) // 13 = enter
 		{
@@ -20,7 +20,7 @@ $(document).ready(function(){
 			$.post('tag.php', (name:name, top:top, left:left), function(){
 				alert('Done');
 			});
-		}
+		} // end if
 	});
 
 });
