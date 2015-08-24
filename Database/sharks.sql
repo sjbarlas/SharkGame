@@ -1,5 +1,3 @@
-/* need to get the latest PHP and MYSQL */
-
 -- phpMyAdmin SQL Dump
 -- version 4.4.12
 -- http://www.phpmyadmin.net
