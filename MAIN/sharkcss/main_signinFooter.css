@@ -4,7 +4,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   margin-bottom:137px; /* between the signin box and the footer */
+=======
+  margin-bottom: -20px; /* between the signin box and the footer */
+>>>>>>> c52d03f6817c781a2512c59b7967d42ef57dba43
 }
 
 .footer {
