@@ -7,7 +7,7 @@
 
 <!--<?php
 
-	//include 'connect.php';
+	//include 'taggingSystemConnect.php';
 
 	/*$query = mysql_query("SELECT 'name', 'top', 'left' FROM 'temptag'");
 	while($run = mysql_fetch_array($query))
