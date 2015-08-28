@@ -30,7 +30,7 @@
 	<input type='text' id='name' style='display:none; position:absolute' />
 <!--</div>-->
 
-<script src='jquery.js'></script>
-<script src='indexing.js'></script>
+<script src='jquery.js'></script> 
+<script src='indexing.js'></script> <!-- this is added for the indexing -->
 </body>
 </html>

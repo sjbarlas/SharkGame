@@ -1,6 +1,6 @@
 <?php
 
-	/*include 'connect.php';
+	/*include 'taggingSystemConnect.php';
 
 	// Variables ready
 	$name = $_POST['name'];
