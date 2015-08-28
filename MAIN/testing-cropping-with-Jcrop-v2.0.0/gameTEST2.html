@@ -5,15 +5,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- must be on top for Jcrop to work -->
   <script src="../jcrop/v2/js/Jcrop.js"></script>
   <script type="text/javascript">
-  jQuery(function($){
-    var d = document, ge = 'getElementById';
+    jQuery(function($){
+      var d = document, ge = 'getElementById';
 
-    $('#interface').on('cropmove cropend',function(e,s,c){
-      d[ge]('crop-x').value = c.x;
-      d[ge]('crop-y').value = c.y;
-      d[ge]('crop-w').value = c.w;
-      d[ge]('crop-h').value = c.h;
-    });
+      $('#interface').on('cropmove cropend',function(e,s,c){
+        d[ge]('crop-x').value = c.x;
+        d[ge]('crop-y').value = c.y;
+        d[ge]('crop-w').value = c.w;
+        d[ge]('crop-h').value = c.h;
+      });
 
         // Most basic attachment example
         $('#target').Jcrop({
@@ -38,9 +38,9 @@
   <link rel="stylesheet" href="../jcrop/v2/demo_files/demos.css">
   <link rel="stylesheet" href="../jcrop/v2/css/Jcrop.css">
   <style>
-  #text-inputs { margin: 10px 8px 0; }
-  .input-group { margin-right: 1.5em; }
-  .nav-box { width: 748px; padding: 0 !important; margin: 4px 0; background-color: #f8f8f7; }
+    #text-inputs { margin: 10px 8px 0; }
+    .input-group { margin-right: 1.5em; }
+    .nav-box { width: 748px; padding: 0 !important; margin: 4px 0; background-color: #f8f8f7; }
 
   </style>
 </head>

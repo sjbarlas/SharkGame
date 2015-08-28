@@ -21,27 +21,27 @@
   <!-- Jcrop scripts -->
   <script type="text/javascript">
 
-  jQuery(function($){
+    jQuery(function($){
 
-    var jcrop_api;
+      var jcrop_api;
 
-    $('#target').Jcrop({
-      onChange:   showCoords,
-      onSelect:   showCoords,
-      onRelease:  clearCoords
-    },function(){
-      jcrop_api = this;
+      $('#target').Jcrop({
+        onChange:   showCoords,
+        onSelect:   showCoords,
+        onRelease:  clearCoords
+      },function(){
+        jcrop_api = this;
+      });
+
+      $('#coords').on('change','input',function(e){
+        var x1 = $('#x1').val(),
+        x2 = $('#x2').val(),
+        y1 = $('#y1').val(),
+        y2 = $('#y2').val();
+        jcrop_api.setSelect([x1,y1,x2,y2]);
+      });
+
     });
-
-    $('#coords').on('change','input',function(e){
-      var x1 = $('#x1').val(),
-      x2 = $('#x2').val(),
-      y1 = $('#y1').val(),
-      y2 = $('#y2').val();
-      jcrop_api.setSelect([x1,y1,x2,y2]);
-    });
-
-  });
 
   // Simple event handler, called from onChange and onSelect
   // event handlers, as per the Jcrop invocation above
@@ -60,11 +60,11 @@
     $('#coords input').val('');
   };
 
-  </script>
+</script>
 
-  <link rel="stylesheet" href="jcrop/gen-css/main.css" type="text/css" /> <!-- bootstrap --> <!--  my nav bar but imgs too big -->
-  <link rel="stylesheet" href="jcrop/gen-css/demos.css" type="text/css" /> <!-- bootstrap --> <!-- border for the image and padding -->
-  <link rel="stylesheet" href="jcrop/jcrop-css/jquery.Jcrop.css" type="text/css" /> <!-- original --> <!-- interactive cropping -->
+<link rel="stylesheet" href="jcrop/gen-css/main.css" type="text/css" /> <!-- bootstrap --> <!--  my nav bar but imgs too big -->
+<link rel="stylesheet" href="jcrop/gen-css/demos.css" type="text/css" /> <!-- bootstrap --> <!-- border for the image and padding -->
+<link rel="stylesheet" href="jcrop/jcrop-css/jquery.Jcrop.css" type="text/css" /> <!-- original --> <!-- interactive cropping -->
 </head>
 <body>
   <header class="top" role="header">
@@ -117,7 +117,7 @@
       </div> <!-- /END SPAN12 -->
     </div> <!-- /END ROW -->
   </div>  <!-- /Jcrop --> <!-- /END CONTAINER -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

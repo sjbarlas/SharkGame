@@ -9,4 +9,4 @@
 
 	// Store them in the db
 	mysql_query("INSERT INTO temptag VALUES('id', '$name', '$top', '$left')"); */
-?>
+	?>
