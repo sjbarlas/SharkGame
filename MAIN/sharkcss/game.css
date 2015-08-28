@@ -1,5 +1,5 @@
 body {
-  min-height: 100px;
+  min-height: 200px;
   background-color: #7A7A7A;
 }
 
@@ -37,4 +37,10 @@ body {
 
 .top {
     background-color: #474747; /* menu bar colour */
+}
+
+img {
+display:block;
+height: auto;
+max-width: 100%;
 }

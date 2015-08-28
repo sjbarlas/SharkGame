@@ -3,6 +3,12 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+img {
+display: inline-block;
+height: auto;
+max-width: 100%;
+}
+
 .btn-default,
 .btn-primary,
 .btn-success,
