@@ -1,0 +1,28 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-family:tahoma;
+	font-size:12px;
+}
+
+img {
+	width:540px;
+	height:auto;
+}
+
+@name {
+	background:#FFF;
+	border:2px solid #CCC;
+	padding:5px;
+	font-family:tahoma;
+	font-size:12px;
+	display:none;
+}
+
+/*@tagged {
+	position:absolute;
+	opacity:0;
+	padding:5px;
+	background:#fff;
+	color:#333;
+}*/

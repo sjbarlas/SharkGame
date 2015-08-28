@@ -1,0 +1,70 @@
+/* index */
+.form-signin-heading {
+    color: #FFFFFF;
+}
+
+.btn {
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33A6CC;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+
+/* nav bars */
+body {
+  min-height: 100px;
+  background-color: #7A7A7A;
+}
+
+.navbar-toggle {
+    color: #2F96B4; /* mob menu colour */
+    font-size: 32px;
+    margin: 3px;
+    padding: 2px 5px;
+    line-height: 32px;
+}
+.navbar-toggle:hover {
+    background-color: #373737; /* mob menu hover */
+}
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-nav li a {
+    color: #CCC; /* text colour */
+    font-family: 'Lato', sans-serif;
+}
+.navbar-nav li a:hover {
+    background-color: #2F96B4; /* hovered menu colour */
+}
+
+.navbar-brand {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    background-color: #CCC; /* background of shark project */
+    color: #474747; /* text colour for shark project */
+    text-decoration: none;
+}
+
+.top {
+    background-color: #474747; /* menu bar colour */
+}
+
+/* a:active {
+    color: #0000FF;
+    } */
