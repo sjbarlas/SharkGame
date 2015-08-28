@@ -31,6 +31,6 @@
 <!--</div>-->
 
 <script src='jquery.js'></script> 
-<script src='indexing.js'></script> <!-- this is added for the indexing -->
+<script src='taggingSystem.js'></script> 
 </body>
 </html>
