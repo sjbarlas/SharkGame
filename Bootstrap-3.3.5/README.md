@@ -1,6 +1,6 @@
-github: https://github.com/twbs/bootstrap
+Github: https://github.com/twbs/bootstrap
 
-site: http://getbootstrap.com/
+Site: http://getbootstrap.com/
 
 ```
 bootstrap/
