@@ -171,9 +171,33 @@ SharkGame
 │   │   
 │   ├── sharkjs/
 │   │   └── signin.js
-│   │   
-│   │ 
-│   │   
+│   │
+│   ├── testing-cropping-with-Jcrop-v2.0.0/
+│   │   ├── gameTEST.html
+│   │   ├── gameTEST2.html
+│   │   ├── gameTESTANOTHER.html
+│   │   └── gameTESTANOTHER.php
+│   │
+│   ├── testing-tagging/
+│   │   ├── jquery.js
+│   │   ├── tag.php
+│   │   ├── taggingSystem.css
+│   │   ├── taggingSystem.js
+│   │   ├── taggingSystem.php
+│   │   └── taggingSystemConnect.php
+│   │
+│   ├── README.md
+│   ├── about.html
+│   ├── check_signin.php
+│   ├── config.php
+│   ├── game.html
+│   ├── index.php
+│   ├── leaderboard.html
+│   ├── main.html
+│   ├── main_signin.php
+│   ├── sguide.html
+│   └──signout.php
+│ 
 └── 
 ```
 
