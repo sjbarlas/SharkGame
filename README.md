@@ -221,6 +221,5 @@ SharkGame
 │   └── main_login.php
 │   
 ├── README.md
-├── SharkGuideInfo.txt
-└── 
+└── SharkGuideInfo.txt
 ```
