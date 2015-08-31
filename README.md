@@ -11,12 +11,14 @@ SharkGame
 │   │   ├── bootstrap-theme.css.map
 │   │   ├── bootstrap-theme.min.css
 │   │   └── bootstrap-theme.min.css.map
+│   │ 
 │   ├── fonts/
 │   │   ├── glyphicons-halflings-regular.eot
 │   │   ├── glyphicons-halflings-regular.svg
 │   │   ├── glyphicons-halflings-regular.ttf
 │   │   ├── glyphicons-halflings-regular.woff
 │   │   └── glyphicons-halflings-regular.woff2js
+│   │
 │   └── js/
 │       ├── bootstrap.js
 │       └── bootstrap.min.js
@@ -34,6 +36,7 @@ SharkGame
 │   │   ├── Jcrop.gif
 │   │   ├── jquery.Jcrop.css
 │   │   └── jquery.Jcrop.min.css
+│   │
 │   ├── demos/
 │   │   ├── demo_files/
 │   │   │   ├── demos.css
@@ -42,6 +45,7 @@ SharkGame
 │   │   │   ├── sago.jpg
 │   │   │   ├── sagomod.jpg
 │   │   │   └── sagomod.png
+│   │   │
 │   │   ├── crop.php
 │   │   ├── non-image.html
 │   │   ├── styling.html
@@ -50,11 +54,13 @@ SharkGame
 │   │   ├── tutorial3.html
 │   │   ├── tutorial4.html
 │   │   └── tutorial5.html
+│   │ 
 │   ├── js/
 │   │   ├── jquery.Jcrop.js
 │   │   ├── jquery.Jcrop.min.js
 │   │   ├── jquery.color.js
 │   │   └── jquery.min.js
+│   │
 │   ├── MIT-LICENSE.txt
 │   ├── README.md
 │   └── Index.html
@@ -64,6 +70,7 @@ SharkGame
 │   │   ├── Jcrop.css
 │   │   ├── Jcrop.gif
 │   │   └── Jcrop.min.css
+│   │
 │   ├── demos/
 │   │   ├── demo_files/
 │   │   │   ├── demos.css
@@ -72,6 +79,7 @@ SharkGame
 │   │   │   ├── sago.jpg
 │   │   │   ├── sagomod.jpg
 │   │   │   └── sagomod.png
+│   │   │
 │   │   ├── basic.html
 │   │   ├── box-sizing.html
 │   │   ├── circle.html
@@ -81,11 +89,13 @@ SharkGame
 │   │   ├── non-image.html
 │   │   ├── panel.html
 │   │   └── thumbnail.html
+│   │
 │   ├── js/
 │   │   ├── Jcrop.js
 │   │   ├── Jcrop.min.js
 │   │   ├── jquery.color.js
 │   │   └── jquery.min.js
+│   │ 
 │   ├── Gruntfile.js
 │   ├── MIT-LICENSE.txt
 │   ├── README.md
@@ -98,22 +108,72 @@ SharkGame
 │   │   ├── css/
 │   │   │   ├── bootstrap-theme.css
 │   │   │   └── bootstrap.css
+│   │   │ 
 │   │   ├── fonts/
 │   │   │   ├── glyphicons-halflings-regular.eot
 │   │   │   ├── glyphicons-halflings-regular.svg
 │   │   │   ├── glyphicons-halflings-regular.ttf
 │   │   │   ├── glyphicons-halflings-regular.woff
 │   │   │   └── glyphicons-halflings-regular.woff2js
-│   |   ├── js/
-│   │   │   ├── bootstrap.js
-│   │   │   └── npm.js
+│   │   │
+│   |   └── js/
+│   │       ├── bootstrap.js
+│   │       └── npm.js
+│   │      
 │   ├── images/
 │   │   ├── 1.jpg
 │   │   ├── 2.jpg
 │   │   ├── 3.jpg
 │   │   ├── 4.jpg
 │   │   └── ajax-loader.gif
-│
+│   │   
+│   ├── jcrop/
+│   │   ├── gen-css/
+│   │   │   ├── demos.css
+│   │   │   └── main.css
+│   │   │
+│   │   ├── jcrop-css/
+│   │   │   ├── Jcrop.gif
+│   │   │   ├── jquery.Jcrop.css
+│   │   │   └── jquery.Jcrop.min.css
+│   │   │ 
+│   │   ├── jcrop-js/
+│   │   │   ├── jquery.Jcrop.js
+│   │   │   ├── jquery.Jcrop.min.js
+│   │   │   ├── jquery.color.js
+│   │   │   └── jquery.min.js
+│   │   │
+│   │   └── v2/
+│   │       ├── css/
+│   │       │   ├── Jcrop.css
+│   │       │   ├── Jcrop.gif
+│   │       │   └── Jcrop.min.css  
+│   │       │
+│   │       ├── demo_files/
+│   │       │   ├── demos.css
+│   │       │   └── main.css
+│   │       │     
+│   │       └── js/
+│   │           ├── Jcrop.js
+│   │           ├── Jcrop.min.js
+│   │           ├── jquery.color.js
+│   │           └── jquery.min.js
+│   │        
+│   ├── sharkcss/
+│   │   ├── about.css
+│   │   ├── game.css
+│   │   ├── index.css
+│   │   ├── leaderboard.css
+│   │   ├── main.css
+│   │   ├── main_signinBox.css
+│   │   ├── main_signinFooter.css
+│   │   └── sguide.css
+│   │   
+│   ├── sharkjs/
+│   │   └── signin.js
+│   │   
+│   │ 
+│   │   
 └── 
 ```
 
