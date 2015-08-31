@@ -1,11 +1,14 @@
 # Site
 
 *On PC*
+
 ![alt text](http://i.imgur.com/DXtICrt.gif "site")
+
 
 *On Phone*
 
 ![alt text](http://i.imgur.com/PAMizQs.gif "phone")
+
 
 *On Tablet*
 
