@@ -1,6 +1,6 @@
 # Contents
-### http://sjbarlas.github.io/SharkGameProject/ > expansion on the code
-### http://blogs.computing.dcu.ie/wordpress/ifad/ > weekly blog of the project
+#### http://sjbarlas.github.io/SharkGameProject/ > expansion on the code
+#### http://blogs.computing.dcu.ie/wordpress/ifad/ > weekly blog of the project
 ```
 SharkGame
 ├── Bootstrap-3.3.5/
