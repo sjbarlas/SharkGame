@@ -8,6 +8,7 @@
 ![alt text](http://i.imgur.com/PAMizQs.gif "phone")
 
 *On Tablet*
+
 ![alt text](http://i.imgur.com/RNvBSMV.gif "tablet")
 
 
