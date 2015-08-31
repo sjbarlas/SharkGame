@@ -1,17 +1,19 @@
 # Site
 
 *On PC*
-![alt text](http://blogs.computing.dcu.ie/wordpress/ifad/wp-content/uploads/sites/266/2015/07/formLoginImage.gif "site")
+
+![alt text](http://i.imgur.com/DXtICrt.gif "site")
+
 
 *On Phone*
 
-![alt text](http://blogs.computing.dcu.ie/wordpress/ifad/wp-content/uploads/sites/266/2015/07/displayOnPhone.gif "phone")
+![alt text](http://i.imgur.com/PAMizQs.gif "phone")
 
-*Cropping*
-![alt text](http://i.imgur.com/y9OUVnS.gif "crop")
 
-*Cropping with Coordinates*
-![alt text](https://raw.githubusercontent.com/sjbarlas/SharkGame/master/PagGifs/coords.gif "coordinates")
+*On Tablet*
+
+![alt text](http://i.imgur.com/RNvBSMV.gif "tablet")
+
 
 # Prototype
 
