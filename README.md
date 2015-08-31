@@ -196,7 +196,7 @@ SharkGame
 │   ├── main.html
 │   ├── main_signin.php
 │   ├── sguide.html
-│   └──signout.php
+│   └── signout.php
 │ 
 └── 
 ```
