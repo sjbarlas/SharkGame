@@ -1,3 +1,6 @@
+github: https://github.com/twbs/bootstrap
+site: http://getbootstrap.com/
+
 ```
 bootstrap/
 ├── css/
