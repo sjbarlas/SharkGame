@@ -1,5 +1,5 @@
 # Contents
-http://sjbarlas.github.io/SharkGame/ > expansion on code
+###http://sjbarlas.github.io/SharkGame/ > expansion on code
 ```
 SharkGame
 ├── Bootstrap-3.3.5/
