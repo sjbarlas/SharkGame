@@ -8,4 +8,4 @@
 	$password="sharks"; // mysql password
 	$db_name="sharks"; // database name 
 	$tbl_name="user"; // table name
-	?>
+?>
