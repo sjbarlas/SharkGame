@@ -15,7 +15,7 @@
 ![alt text](http://i.imgur.com/RNvBSMV.gif "tablet")
 
 
-# Prototype
+# Initial Prototype
 
 *Home Page*
 ![alt text](http://i.imgur.com/b2D77TR.png "Home Page")
