@@ -26,9 +26,9 @@
       var jcrop_api;
 
       $('#target').Jcrop({
-        onChange:   showCoords,
-        onSelect:   showCoords,
-        onRelease:  clearCoords
+        onChange:   showCoords, // related to coordinates
+        onSelect:   showCoords, // being displayed
+        onRelease:  clearCoords // when cropping the image
       },function(){
         jcrop_api = this;
       });
@@ -47,12 +47,10 @@
   // event handlers, as per the Jcrop invocation above
   function showCoords(c)
   {
-    $('#x1').val(c.x);
-    $('#y1').val(c.y);
+    $('#x1').val(c.x); // The coordinates (x1, y1) (x2, y2)
+    $('#y1').val(c.y); // of the cropped image
     $('#x2').val(c.x2);
     $('#y2').val(c.y2);
-    /*$('#w').val(c.w);
-    $('#h').val(c.h);*/
   };
 
   function clearCoords()
@@ -62,7 +60,7 @@
 
 </script>
 
-<link rel="stylesheet" href="jcrop/gen-css/main.css" type="text/css" /> <!-- bootstrap --> <!--  my nav bar but imgs too big -->
+<link rel="stylesheet" href="jcrop/gen-css/main.css" type="text/css" /> <!-- bootstrap --> <!--  imgs too big -->
 <link rel="stylesheet" href="jcrop/gen-css/demos.css" type="text/css" /> <!-- bootstrap --> <!-- border for the image and padding -->
 <link rel="stylesheet" href="jcrop/jcrop-css/jquery.Jcrop.css" type="text/css" /> <!-- original --> <!-- interactive cropping -->
 </head>
@@ -90,7 +88,7 @@
   <!-- Jcrop -->
   <div class="container">
     <div class="row">
-      <div class="span12"> <!-- need to fix this -->
+      <div class="span12">
         <div class="jc-demo-box">
 
           <!-- Shark images appear here -->
@@ -107,8 +105,6 @@
               <!-- bottom right -->
               <label>X2 <input type="text" size="4" id="x2" name="x2" /></label>
               <label>Y2 <input type="text" size="4" id="y2" name="y2" /></label>
-              <!-- <label>W <input type="text" size="4" id="w" name="w" /></label>
-              <label>H <input type="text" size="4" id="h" name="h" /></label> -->
             </div>
           </form>
 
