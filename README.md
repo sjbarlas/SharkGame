@@ -2,7 +2,7 @@
 #### http://sjbarlas.github.io/SharkGameProject/ > expansion on the code
 #### http://blogs.computing.dcu.ie/wordpress/ifad/ > weekly blog of the project (03/06/15 to 03/09/15)
 ```
-SharkGame
+SharkGameProject
 ├── Bootstrap-3.3.5/
 │   ├── css/
 │   │   ├── bootstrap.css
