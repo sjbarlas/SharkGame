@@ -223,6 +223,6 @@ SharkGameProject
 │   
 ├── README.md
 ├── Saira Barlas - Presentation.ppt
-├── SharkGameProject_Documentation.docx
+├── SharkGameProject_Documentation.pdf
 └── SharkSpecies.txt
 ```
